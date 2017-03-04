@@ -1,0 +1,17 @@
+<html>
+<head>
+<title>{{ title }}</title>
+</head>
+<body>
+  <div id="header">Anon Dropbox</div>
+
+  <div id="content">
+  {% block content %}{% endblock %}
+  </div>
+
+  <div id="logo">
+    <img src="/static/lisp-alien-logo.png"/>
+  </div>
+
+</body>
+</html>

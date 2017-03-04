@@ -1,0 +1,6 @@
+(defparameter *http-port* 8080 "The port to listen on for http requests")
+(defparameter *https-port* 8443 "The port to listen on for https requests")
+(defparameter *ssl-key-file* "/data/mycert.pem" "Full path to the ssl key file")
+(defparameter *ssl-cert-file* "/data/mycert.pem" "Full path to the ssl cert file")
+(defparameter *upload-dir* "/tmp/upload" "Full path to upload directory")
+(defparameter *password* "secret" "Password to use for encryption")

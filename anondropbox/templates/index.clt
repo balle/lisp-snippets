@@ -1,0 +1,15 @@
+{% extends "main.clt" %}
+
+{% block content %}
+
+{% if uploaded %}
+Received your file upload!
+{% else %}
+<form method="post" action="#" enctype="multipart/form-data">
+Message: <textarea name="message" id="message"></textarea>
+File to upload: <input type="file" name="upload_file" id="upload_file"/>
+<input type="submit" value="Send" id="send" />
+</form>
+{% endif %}
+
+{% endblock %}
